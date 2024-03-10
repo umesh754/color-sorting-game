@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Manisha dherai khelne game</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+         <div id = "game">
+            <div id = "menu">
+                <div id = "menu-heading">Manisha dherai khelne game</div>
+                <div class = "lvl" id = "easy" onclick = "OpenLevel(0);">EASY</div>
+                <div class = "lvl" id = "medium" onclick = "OpenLevel(1);">MEDIUM</div>
+                <div class = "lvl" id = "hard" onclick = "OpenLevel(2);">HARD</div>
+                <div class = "lvl" id = "very-hard" onclick = "OpenLevel(3)">VERY HARD</div>
+                <div class = "lvl" id = "impossible" onclick = "OpenLevel(7);">IMPOSSIBLE</div>
+                <br><br><br>
+                <div id = "rules-btn" onclick = "ShowRules();">RULES</div>
+            </div>
+            <div id = "level"></div>
+            <div id = "rules-page">
+                <div id = "rules">
+                    <div id = "rules-heading">RULES</div>
+                    <div id = "rules-text">There will be some glasses (or test tubes to be exact xD), your task is to put the liquids with same color together! You can transfer different colored water from one glass to another only if the other glass is empty or its top most layer of water is of the same color as that of the one from which water is to be taken. The glass you have selected will be highlighted to prevent confusion. Restart button will take you back to the beginning of the level, also every time you open the same level the water will be shuffled. Check out the real game 'Water sort puzzle' on playstore, I have cloned it.</div>
+                    <div id = "back" onclick = "HideRules();">BACK</div>
+                </div>
+            </div>
+        </div>
+</body>
+
+<script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
+</html>
